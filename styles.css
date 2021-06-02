@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+  background-color: var(--dark-cyan);
+}
+
+main {
+  max-width: 1440px;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+img.pattern-top {
+  max-height: auto;
+  max-width: auto;
+  transform-origin: center;
+  top:-50%;
+  left: 0%;
+  position: absolute;
+  z-index: -1;
+
+}
+
+img.pattern-bottom {
+  transform-origin: center;
+  bottom:-60%;
+  right:0%;
+  position: absolute;
+  z-index: -1;
+ 
+}
+
+.card {
+  width: 350px;
+  height: 374px;
+  display: grid;
+  grid-template-columns: 1fr;;
+  grid-template-rows: 1fr 1.1fr 0.6fr ;
+}
+
+.card__top{
+  background: url('./images/bg-pattern-card.svg');
+  grid-column: 1;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+
+.card__top img {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  transform: translateY(50%);
+ 
+}
+.card__middle {
+  background-color: #ffffff;
+  grid-column: 1;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card__middle .name {
+  font-weight: 700;
+  margin-top: 2rem;
+  display: inline-block;
+  color: var(--very-dark-desaturated-blue);
+
+
+}
+
+.card__middle .age {
+  color: var(--dark-gray);
+}
+.card__middle .location {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  color: var(--dark-gray);
+}
+
+.card__bottom {
+  background-color: #ffffff;
+  border-top: 1px solid #e8e9ec;
+  grid-column: 1;
+  grid-row:3/4;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+.card__botttom-stats{
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-number{
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  
+}
+
+.stat-desc {
+  color: var(--dark-gray);
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 700px){
+
+  
+}
