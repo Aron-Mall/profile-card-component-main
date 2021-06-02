@@ -20,12 +20,13 @@ body {
   background-image: url('./images/bg-pattern-top.svg'),
                     url('./images/bg-pattern-bottom.svg');
   background-repeat: no-repeat no-repeat;
-  background-position:  -2vw -50vh,
-                        50vw 50vh;
+  background-position: bottom 36vh right 50vw, 
+                        top 43vh left 50vw;
 
 }
 
 main {
+  max-width: 1440px;
   min-height: 100vh; 
   min-width: 100vw;
   margin: 0 auto;
@@ -77,7 +78,7 @@ main {
 
 .card__middle .name {
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: inline-block;
   color: var(--very-dark-desaturated-blue);
 
@@ -128,8 +129,7 @@ main {
 
 @media only screen and (max-width: 375px){
   body{
-    background-position:  -205vw -80vh,
-                           35vw 50vh;
+    background-position: bottom 34vh right 52vw, top 52vh left 48vw;
   }
   .card {
     width: 326px;
