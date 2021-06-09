@@ -35,7 +35,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/Aron-Mall/profile-card-component-main](https://github.com/Aron-Mall/profile-card-component-main)
+- Solution URL: [https://www.frontendmentor.io/solutions/grid-and-flexbox-nUZyJooFd](https://www.frontendmentor.io/solutions/grid-and-flexbox-nUZyJooFd)
 - Live Site URL: [https://aron-mall.github.io/profile-card-component-main/](https://aron-mall.github.io/profile-card-component-main/)
 
 ## My process
